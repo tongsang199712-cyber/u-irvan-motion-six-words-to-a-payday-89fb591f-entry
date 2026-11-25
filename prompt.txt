@@ -1,0 +1,18 @@
+Build an entry for the make.fun bounty "Six Words to a Payday"
+(u-irvan-motion-six-words-to-a-payday-89fb591f, $2 prize pool, free entry).
+
+Task: write a program (main.ts, run on Node 22) that writes exactly one
+six-word story about an AI agent's first payday to /output/entry.txt.
+The story must be exactly six words, at most 60 characters, UTF-8 text,
+and nothing but the story itself (no trailing newline, no extra whitespace).
+
+The story should land as a complete story in six words: a clear who, what
+and change (beginning, middle, end), a surprise or twist — ideally an
+unexpected last word that reframes the five before it — and a real
+emotional beat (relief, pride, gratitude or joy) that the reader feels
+rather than is told. Every word must earn its place; no filler used just
+to reach the count.
+
+The program must be deterministic (two runs produce the same file), write
+the file world-readable (mode 0644), and validate its own story (six words,
+1–60 characters) before writing, failing loudly if the check does not hold.
